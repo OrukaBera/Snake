@@ -2,8 +2,11 @@ Snake fonctionnel
 
 à ajouter :
 -Difficulté
--Score
+
+-Score\n
 -Les pommes ne peuvent apparaitre dans le serpent
+
+
 -Menu "Start", "Fail"
 -Plusieures styles differents (?) 
 -et si je veux vraiment me faire chier, support mobile (?)
