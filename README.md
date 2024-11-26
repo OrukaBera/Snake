@@ -1,7 +1,6 @@
 Snake fonctionnel
 
 à ajouter :
-
 -Difficulté
 
 -Score
