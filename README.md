@@ -1,11 +1,12 @@
 Snake fonctionnel
 
 à ajouter :
+
 -Difficulté
+
 -Score
 
 -Les pommes ne peuvent apparaitre dans le serpent
-
 
 -Menu "Start", "Fail"
 
