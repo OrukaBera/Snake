@@ -1,0 +1,73 @@
+body{
+    background-color: #181818;
+}
+
+#gameContainer{
+    text-align: center;
+}
+#gameBoard{
+    border: 3px solid;
+}
+#scoreText{
+    font-family: "Permanent Marker", cursive;
+    font-size: 100px;
+    color: white
+}
+#resetBtn{
+    font-family: "Permanent Marker", cursive;
+    font-size: 22px;
+    width: 100px;
+    height: 50px;
+    border: 4px solid;
+    border-radius: 15px;
+    cursor: pointer;
+}
+#startBtn{
+    font-family: "Permanent Marker", cursive;
+    font-size: 22px;
+    width: 100px;
+    height: 50px;
+    border: 4px solid;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.dropbtn {
+    font-family: "Permanent Marker", cursive;
+    font-size: 22px;
+    width: 150px;
+    height: 50px;
+    border: 4px solid;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: darkgrey;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  overflow: auto;
+  z-index: 1;
+}
+
+.dropdown-content button {
+    font-family: "Permanent Marker", cursive;
+    font-size: 22px;
+    width: 100%;
+    height: 50px;
+    border: 4px solid;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.dropdown-content button:hover {background-color: darkgrey;}
+
+.show {display: block;}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <button onclick="skinListDropdown()" class="dropbtn">Skins</button>
+        <div id="skinDropdown" class="dropdown-content">
+            <button id="skin1">Retro</button>
+            <button id="skin2">Sunset</button>
+            <button id="skin3">Monochrome</button>
+        </div>
+    </div>
+    
+    <div>
+        <button onclick="diffListDropdown()" class="dropbtn">Difficulty</button>
+        <div id="diffDropdown" class="dropdown-content">
+            <button id="diff1">Easy</button>
+            <button id="diff2">Intermediate</button>
+            <button id="diff3">Hard</button>
+        </div>
+    </div>
+    
+    
+    
+    <div id="gameContainer">
+        
+        <canvas id="gameBoard" width="500" height="500">
+        
+        </canvas>
+        <div id="scoreText">0</div>
+        
+        <button id="startBtn">Start</button>
+        <br/>
+        <br/>
+        <button id="resetBtn">Reset</button>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
